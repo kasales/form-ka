@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+    min-width: 314px;
+    max-width: 600;
+    margin:0% auto;
+}
+header {
+    margin: 25px;
+    border: 7px;
+    padding: 10px;
+
+}
+
+h1{
+font: size 1.5em; ;
+}
+fieldset{
+    margin: 15px;
+    padding: 20px; ;  
+}
+input{
+    width: 100%;
+    padding: 6px;
+    outline: 1px solid blueviolet
+     ; 
+}
+form {
+    margin: 15px;
+}
+div{
+    margin: 10px;
+}
+fieldset{
+    margin-top: 10px;
+    padding:15px ;
+    display: flex;
+    border: 7px groove brown; 
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+legend{
+    padding: 5px;
+}
+.dados.pessoais{
+    margin: 1,5rem;
+}
+select{
+    padding: px;
+    outline: 1px pink;
+}

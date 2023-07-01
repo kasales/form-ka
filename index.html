@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <title>Document</title>
+
+    <!-- Site desenvolvido por.....ç -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content=""> -->
+
+    <!-- Segue abaixo o link para o CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Meu primeiro formulario</h1>
+        <p>Complete suas informações</p>
+        <hr>
+    </header>
+
+    <form action="#">
+        <fieldset>
+            <legend>Lorem Ipsum</legend>
+          
+            <div>
+                <label for="id-nome">Nome:</label>
+                <input required placeholder="Digite aqui seu nome" id="id-nome" type="text">
+            </div>
+
+            <div>
+                <label for="id-email">E-mail:</label>
+                <input required placeholder="Digite aqui seu e-mail" type="email" id="id-email">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleção Brasileira</legend>
+            
+            <div>
+                <label for="">Escolha um dos itens:</label>
+                <select name="" id="">
+                    <option selected disabled>Selecionar</option>
+                    <option>Item 1</option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                    <option>Item 4</option>
+                    <option>Item 5</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio Button</legend>
+
+            <input type="radio" name="bt-radio" id="bt-radio1">
+            <label for="bt-radio1">Item 1</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio2">
+            <label for="bt-radio2">Item 2</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio3">
+            <label for="bt-radio3">Item 3</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Checkbox</legend>
+
+            <input type="checkbox" id="chk1">
+            <label for="chk1">Item 1</label>
+
+            <input type="checkbox" id="chk2">
+            <label for="chk2">Item 2</label>
+
+            <input type="checkbox" id="chk3">
+            <label for="chk3">Item 3</label>
+
+            <input type="checkbox" id="chk4">
+            <label for="chk4">Item 4</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de texto</legend>
+
+            <textarea name="area-de-texto" cols="30" rows="10"></textarea>
+        </fieldset>
+
+
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+
+    </form>
+    
+</body>
+</html>
